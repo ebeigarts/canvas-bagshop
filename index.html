@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Test</title>
+    <meta content='width=device-width, initial-scale=1, maximum-scale=1' name='viewport' />
+    <link type="text/css" href="application.css?1" media="all" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="application.js?1"></script>
+  </head>
+  <body>
+    <button onclick="img.applyColors([ [0,0,0], [50,255,330], [100,100,100] ])">Style 1</button>
+    <button onclick="img.applyColors([ [210,50,50], [50,50,50], [210,50,50] ])">Style 2</button>
+    <button onclick="img.applyColors([ [255,255,255], [0,200,150], [0,50,50] ])">Style 3</button>
+    <br/>
+    <br/>
+    <img src="776-composite.png" onload="img = new Image(this, 4)" />
+    <br/>
+    <br/>
+    <a href="http://caniuse.com/canvas">Canvas support</a>
+  </body>
+</html>

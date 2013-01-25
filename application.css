@@ -1,0 +1,14 @@
+body {
+  background: url("http://subtlepatterns.subtlepatterns.netdna-cdn.com/patterns/creampaper.png");
+  text-align: center;
+  margin: 30px auto;
+}
+
+button {
+  border: none;
+  background: #ccc;
+  color: #555;
+  font: 14px/1.0 Arial;
+  padding: 12px 15px;
+  border-radius: 5px;
+}
